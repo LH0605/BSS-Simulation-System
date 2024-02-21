@@ -1,9 +1,23 @@
-# PSS多站联动仿真平台App
+# BSS Simulation System App
 
-### web.py：App入口文件 指令 streamlit run web.py
-### swap，users：定义的抽象类文件
-### main：仿真函数主文件，会被web.py调用
-### global_param.py：静态参数文件
-### image：web.py 会用到的图片，存储文件夹
-### data：web.py 会用到的*.dat文件，存储文件夹
-### setup.sh：App配置文件，定义背景颜色，字体字号等
+### Set up Environment
+```bash
+git clone this repo
+
+pip install -r requirements.txt
+```
+
+### Run Simulator
+```bash 
+cd /path/to/this_repo_directory
+
+streamlit run GUI.py
+```
+### Instructions
+ GUI.py：AppEntry file 
+swap，users：Defined abstract class file
+main：The main file of the simulation function will be called by GUI.py
+global_param.py：Static parameter file
+image：web.py Pictures that will be used, storage folders
+data：web.py *.dat files and storage folders that will be used
+setup.sh：App configuration file, define background color, font size, etc.
